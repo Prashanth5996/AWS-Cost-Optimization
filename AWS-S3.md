@@ -90,4 +90,40 @@
 - **Effective S3 Bucket Organization:** Implement a consistent naming convention and use tags to categorize files and make them easier to manage.
 - **Minimize Cross-Region Data Transfer:** Ensure that data is not replicated across regions unnecessarily.
 
+### Cost Savings Percentage
+
+- **Step 1: Understand S3 Storage Classes and Pricing**: 5% cost savings
+- **Step 2: Analyze S3 Access Patterns**: 10% cost savings
+- **Step 3: Create S3 Lifecycle Policies**: 15% cost savings
+- **Step 4: Implement Effective S3 Bucket Organization**: 5% cost savings
+- **Step 5: Minimize Cross-Region Data Transfer**: 5% cost savings
+- **Step 6: Use Cost and Usage Reports**: 5% cost savings
+- **Additional Steps to Reduce Costs**:
+  - **Use Amazon S3 Intelligent-Tiering**: 10% cost savings
+  - **Use Amazon S3 One Zone – Infrequent Access**: 5% cost savings
+  - **Use Amazon S3 Glacier Flexible Retrieval**: 10% cost savings
+  - **Use Amazon S3 Glacier Deep Archive**: 15% cost savings
+
+Total estimated cost savings: **60%**
+
+### Summary Table
+
+| Step | Description | Cost Savings Percentage |
+| --- | --- | --- |
+| 1 | Understand S3 Storage Classes and Pricing | 5% |
+| 2 | Analyze S3 Access Patterns | 10% |
+| 3 | Create S3 Lifecycle Policies | 15% |
+| 4 | Implement Effective S3 Bucket Organization | 5% |
+| 5 | Minimize Cross-Region Data Transfer | 5% |
+| 6 | Use Cost and Usage Reports | 5% |
+| Additional Steps |  |  |
+|  | Use Amazon S3 Intelligent-Tiering | 10% |
+|  | Use Amazon S3 One Zone – Infrequent Access | 5% |
+|  | Use Amazon S3 Glacier Flexible Retrieval | 10% |
+|  | Use Amazon S3 Glacier Deep Archive | 15% |
+| Total |  | 60% |
+
+By following these steps and using the additional strategies, you can significantly reduce your S3 costs and optimize your storage usage.
+
+
 
