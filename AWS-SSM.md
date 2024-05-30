@@ -105,6 +105,3 @@ To optimize costs for Amazon System Manager (SSM), follow these steps and strate
 - **Use SSM Cost and Usage Reports:** Monitor and analyze reports to identify areas of high cost and optimize accordingly[1].
 - **Effective SSM Inventory Management:** Ensure that SSM inventory is up-to-date and accurate, and use SSM to automate inventory updates[1].
 - **Minimize Cross-Account Data Transfer:** Ensure that data is not replicated across accounts unnecessarily, and use SSM to manage data transfer between accounts[1].
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/15234343/98676ef9-4e0b-401c-8304-796613778e76/paste.txt
