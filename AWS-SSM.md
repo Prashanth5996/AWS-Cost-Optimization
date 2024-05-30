@@ -1,6 +1,6 @@
 ### System Manager (SSM) Cost Optimization
 
-#### To optimize costs for Amazon System Manager (SSM), follow these steps and strategies:
+To optimize costs for Amazon System Manager (SSM), follow these steps and strategies:
 
 ### 1. Understand SSM Pricing
 
