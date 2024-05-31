@@ -107,6 +107,3 @@ Here are some example scenarios demonstrating the cost savings of using the righ
 To implement cost optimization for S3, follow these steps:
 1. **Choose the Right Storage Class**: Select the appropriate storage class based on the use case and access patterns.
 2. **Use S3 Lifecycle Policies**: Automate data transitions between storage classes using S3 Lifecycle policies to optimize costs.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/19023381/438d2bcd-c447-41d0-8822-bfd3028a8ff6/paste.txt
