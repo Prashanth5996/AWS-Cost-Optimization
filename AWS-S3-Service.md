@@ -20,13 +20,6 @@ Here are the key differences between the storage classes:
 - **S3 Glacier Deep Archive**: Low-cost storage with retrieval times of 12-48 hours.
 - **S3 Reduced Redundancy Storage (RRS)**: Lower costs than S3 Standard, but with lower durability.
 
-### Example Scenarios
-Here are some example scenarios demonstrating the cost savings of using the right storage class:
-- **E-commerce Company**: Using S3 Intelligent-Tiering reduces costs by over 20%. ✅
-- **Media Company**: Using S3 One Zone-IA reduces costs by over 20%. ✅
-- **Healthcare Organization**: Using S3 Glacier Flexible Retrieval reduces costs by over 90%. ✅
-- **Media Company**: Using S3 Reduced Redundancy Storage (RRS) reduces costs by over 90%. ✅
-
 ### S3 Standard
 - **Use Case**: Frequently accessed data requiring high durability and low latency. ✅
 - **Pricing**: 
@@ -117,6 +110,13 @@ A healthcare organization is required to retain patient records for 20 years. Th
 ### Example Scenario:
 A media company produces a large volume of thumbnails for its website, which are non-critical and can be easily reproduced if lost. To reduce storage costs, the company uses Amazon S3 Reduced Redundancy Storage (RRS) for storing these thumbnails. RRS provides 99.99% durability and 99.99% availability at a lower cost compared to Amazon S3 Standard. For 10 TB of thumbnail data, storing it in S3 Standard would cost approximately $1,176.80 per month or $14,121.60 per year. By using S3 RRS, the cost is reduced to $0.0125 per GB, which translates to $125 per month or $1,500 per year, resulting in a savings of over 90%. ✅
 
+### Example Scenarios
+Here are some example scenarios demonstrating the cost savings of using the right storage class:
+- **E-commerce Company**: Using S3 Intelligent-Tiering reduces costs by over 20%. ✅
+- **Media Company**: Using S3 One Zone-IA reduces costs by over 20%. ✅
+- **Healthcare Organization**: Using S3 Glacier Flexible Retrieval reduces costs by over 90%. ✅
+- **Media Company**: Using S3 Reduced Redundancy Storage (RRS) reduces costs by over 90%. ✅
+  
 ### Implementation of Cost Optimization
 To implement cost optimization for S3, follow these steps:
 1. **Choose the Right Storage Class**: Select the appropriate storage class based on the use case and access patterns.
