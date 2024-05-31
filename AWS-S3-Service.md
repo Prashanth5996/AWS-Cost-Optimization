@@ -39,7 +39,7 @@ Here are the key differences between the storage classes:
 - **Minimum Storage Duration**: Not applicable.
 
 ### Example Scenario:
-A rapidly growing e-commerce company has a large product catalog that is frequently accessed by customers. To optimize costs, the company can use S3 Intelligent-Tiering to automatically tier data based on usage patterns. By default, data is stored in the frequent access tier and moves to the infrequent access tier if not accessed for 30 consecutive days. For 5 TB of data, storing it in S3 Standard would cost approximately $588.40 per month or $7,060.80 per year. However, using S3 Intelligent-Tiering reduces the cost to $470.72 per month or $5,648.64 per year, resulting in a savings of over 20%. This cost-effective solution helps the company manage its data storage expenses efficiently. ✅
+A rapidly growing `e-commerce company has a large product catalog that is frequently accessed by customers`. To optimize costs, the company can use S3 Intelligent-Tiering to automatically tier data based on usage patterns. `By default, data is stored in the frequent access tier and moves to the infrequent access tier if not accessed for 30 consecutive days`. `For 5 TB of data`, `storing it in S3 Standard would cost approximately $588.40 per month or $7,060.80 per year`. However, `using S3 Intelligent-Tiering reduces the cost to $470.72 per month or $5,648.64 per year`, resulting in a savings of over 20%. This cost-effective solution helps the company manage its data storage expenses efficiently. ✅
 
 ### S3 Standard - Infrequent Access (IA)
 **S3 Standard - Infrequent Access (IA)**:
@@ -50,7 +50,7 @@ A rapidly growing e-commerce company has a large product catalog that is frequen
 - **Minimum Storage Duration**: 30 days.
 
 ### Example Scenario:
-A company wants to store 1 TB of files in the us-east-1 region without daily access. To minimize costs, the company should choose the appropriate storage class. S3 Standard offers high durability, availability, and low latency, but costs $23.552 per month or $282.64 per year for 1 TB of data. Alternatively, S3 Standard – Infrequent Access (IA) is designed for infrequently accessed data, costing $12.8 per month or $153.6 per year for the same amount of data. This tier provides a significant cost reduction compared to the standard storage class. ✅
+`A company wants to store 1 TB of files in the us-east-1 region without daily access`. To minimize costs, the company should choose the appropriate storage class. `S3 Standard offers high durability, availability, and low latency`, but `costs $23.552 per month or $282.64 per year for 1 TB of data`. Alternatively, `S3 Standard – Infrequent Access (IA)` is designed for infrequently accessed data, `costing $12.8 per month or $153.6 per year for the same amount of data`. This tier provides a significant cost reduction compared to the standard storage class. ✅
 
 ### S3 One Zone-IA
 **S3 One Zone-IA**:
@@ -61,7 +61,7 @@ A company wants to store 1 TB of files in the us-east-1 region without daily acc
 - **Minimum Storage Duration**: 30 days.
 
 ### Example Scenario:
-A media company stores a large archive of video files in multiple Availability Zones for high durability. The data is accessed only a few times per year for legal purposes. To reduce costs, the company can use S3 Lifecycle policies to automatically transition the data to S3 One Zone-IA 90 days after creation. S3 One Zone-IA offers the same durability as S3 Standard-IA but stores data in a single Availability Zone, reducing costs by 20%. For 10 TB of data, storing it in S3 Standard for 5 years would cost approximately $2,941.99 per month or $35,303.88 per year. By transitioning to S3 One Zone-IA, the cost is reduced to $2,353.59 per month or $28,243.08 per year, resulting in a savings of over 20%. ✅
+`A media company stores a large archive of video files in multiple Availability Zones for high durability`. The data is accessed only a few times per year for legal purposes. To reduce costs, the company can use S3 Lifecycle policies to automatically transition the data to S3 One Zone-IA 90 days after creation. S3 One Zone-IA offers the same durability as S3 Standard-IA but stores data in a single Availability Zone, reducing costs by 20%. For 10 TB of data, storing it in S3 Standard for 5 years would cost approximately $2,941.99 per month or $35,303.88 per year. By transitioning to S3 One Zone-IA, the cost is reduced to $2,353.59 per month or $28,243.08 per year, resulting in a savings of over 20%. ✅
 
 ### S3 Glacier Instant Retrieval
 **S3 Glacier Instant Retrieval**:
