@@ -10,11 +10,6 @@ Cost optimization should be used when:
 3. **Long-Term Archiving**: For long-term archiving, use **S3 Glacier Instant Retrieval**, **S3 Glacier Flexible Retrieval**, or **S3 Glacier Deep Archive** for low-cost storage with retrieval times ranging from 3-5 hours to 12-48 hours. ✅
 4. **Non-Critical Data**: For non-critical data, use **S3 Reduced Redundancy Storage (RRS)** for lower costs while maintaining high availability and durability. ✅
 
-### Implementation of Cost Optimization
-To implement cost optimization for S3, follow these steps:
-1. **Choose the Right Storage Class**: Select the appropriate storage class based on the use case and access patterns.
-2. **Use S3 Lifecycle Policies**: Automate data transitions between storage classes using S3 Lifecycle policies to optimize costs.
-
 ### Key Differences Between Storage Classes
 Here are the key differences between the storage classes:
 - **S3 Standard**: High durability, low latency, and high costs.
@@ -121,3 +116,8 @@ A healthcare organization is required to retain patient records for 20 years. Th
 
 ### Example Scenario:
 A media company produces a large volume of thumbnails for its website, which are non-critical and can be easily reproduced if lost. To reduce storage costs, the company uses Amazon S3 Reduced Redundancy Storage (RRS) for storing these thumbnails. RRS provides 99.99% durability and 99.99% availability at a lower cost compared to Amazon S3 Standard. For 10 TB of thumbnail data, storing it in S3 Standard would cost approximately $1,176.80 per month or $14,121.60 per year. By using S3 RRS, the cost is reduced to $0.0125 per GB, which translates to $125 per month or $1,500 per year, resulting in a savings of over 90%. ✅
+
+### Implementation of Cost Optimization
+To implement cost optimization for S3, follow these steps:
+1. **Choose the Right Storage Class**: Select the appropriate storage class based on the use case and access patterns.
+2. **Use S3 Lifecycle Policies**: Automate data transitions between storage classes using S3 Lifecycle policies to optimize costs.
