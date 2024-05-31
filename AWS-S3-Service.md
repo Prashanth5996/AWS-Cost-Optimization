@@ -1,4 +1,5 @@
 ## Cost Optimization for S3 Service 
+
 ### Use Case for Cost Optimization
 Selecting the appropriate storage class in Amazon S3 is important for saving money and ensuring your data meets its accessibility needs. Each class has its own strengths in terms of durability, availability, speed, and cost, so it's essential to match your usage patterns with the right class
 
