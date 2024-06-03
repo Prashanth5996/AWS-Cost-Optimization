@@ -121,9 +121,9 @@ To create a lifecycle rule in the AWS Management Console:
 2. **Open the Amazon S3 console**.
 3. **Choose the bucket you want to create a lifecycle rule for**.
 4. **Choose the **Management** tab**.
-5. **Choose **Create Lifecycle rule**.
-6. **Enter a value for **Lifecycle rule name**.
-7. **Choose the **Rule scope**:
+5. **Choose Create Lifecycle rule**.
+6. **Enter a value for Lifecycle rule name**.
+7. **Choose the Rule scope**:
    - **Limit the scope of this rule using one or more filters**:
      - **Prefix**: Add a filter to limit the scope to a single prefix.
        - Restrict access to objects with the prefix "documents/".
@@ -132,7 +132,7 @@ To create a lifecycle rule in the AWS Management Console:
      - **Object size**: Specify minimum and maximum object sizes.
        - Manage objects within a size range of 1MB to 10MB
    - **Apply to all objects in the bucket**.
-8. **Choose the **Lifecycle rule actions**:
+8. **Choose the Lifecycle rule actions**:
    - **Move current versions of objects between storage classes**.
    - **Move noncurrent versions of objects between storage classes**.
    - **Expire current versions of objects**.
